@@ -27,6 +27,15 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover .card__title {
+  text-decoration: none;
 }
 
 img {
