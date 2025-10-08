@@ -152,6 +152,9 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -199,12 +202,6 @@ button:hover {
   font-size: 20px;
   line-height: 1.2;
   z-index: 1;
-}
-
-.lots__card-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .lots__look-more-link {
