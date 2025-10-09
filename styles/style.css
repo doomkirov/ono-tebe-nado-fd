@@ -6,9 +6,9 @@
 }
 
 .link__active {
-  pointer-events: none;
-  cursor: default;
   text-decoration: none;
+  cursor: default;
+  pointer-events: none;
 }
 
 .header__menu {
@@ -56,17 +56,17 @@
 .cover {
   position: relative;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 106px;
   min-height: 757px;
+  padding: 165px 50px 50px;
+  color: #fff;
   text-transform: uppercase;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #fff;
-  flex-direction: column;
-  gap: 106px;
-  justify-content: space-between;
-  padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -76,12 +76,12 @@
 }
 
 .cover__title {
+  z-index: 1;
   display: flex;
+  align-self: center;
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
-  z-index: 1;
-  align-self: center;
 }
 
 .aligned-text_no-spacing {
@@ -103,11 +103,11 @@
 }
 
 .cover__description {
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 108px;
   word-spacing: 18px;
-  z-index: 1;
 }
 
 .cover__description-text {
@@ -127,8 +127,8 @@
 }
 
 .bet-button:hover {
-  background-color: white;
   color: black;
+  background-color: white;
   transition: background-color 1s, color 0.5s;
 }
 
@@ -155,16 +155,16 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 334px;
-  position: relative;
   min-height: 596px;
+  color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: white;
 }
 
 .card-link {
@@ -182,20 +182,20 @@
 }
 
 .card__title {
+  z-index: 1;
   padding: 48px 40px 0 40px;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
-  z-index: 1;
 }
 
 .card__text {
+  z-index: 1;
   margin: 0 40px 48px;
   font-size: 20px;
   line-height: 1.2;
-  z-index: 1;
 }
 
 .lots__look-more-link {
